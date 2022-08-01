@@ -1,0 +1,117 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("assets/hatterkep.png");
+  background-repeat: repeat;
+  line-height: 1.5;
+  color: black;
+  font-size: 11pt;
+  font-family: Consolas;
+  text-align: justify;
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+
+#header {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#header-logo {
+  margin-left: 10%;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  position: fixed;
+}
+
+#header-links {
+  float: right;
+  margin-right: 10%;
+}
+
+#header a {
+  float: left;
+  color: #ff0099;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  text-decoration: underline;
+  font-size: 14px;
+  line-height: 1;
+}
+
+#header a:hover {
+  color: white;
+}
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h1 {
+  color: black;
+  font-size: 30pt;
+  font-style: bold;
+  font-family: 'Merriweather';
+}
+
+h2 {
+  color: #ff0099;
+  font-size: 20pt;
+  font-family: 'Merriweather';
+  font-weight: lighter;
+  line-height: 0.75;
+}
+
+h3 {
+  color: black;
+  font-size: 20pt;
+  font-family: 'Merriweather';
+  text-align: center;
+}
+
+h4 {
+  color: black;
+  font-size: 14pt;
+  font-family: 'Merriweather';
+  line-height: 0.2;
+}
+
+#intro-text {
+  font-size: 13pt;
+}
+
+.definition {
+  padding-bottom: 10px;
+}
+
+#separator {
+  color: black;
+  font-size: 14pt;
+  font-family: Consolas;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#back-btn {
+  margin-top: 70px;
+}
+
+#back-btn a {
+  color: #ff0099;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #333;
+}
+
+#back-btn a:hover {
+  color: white;
+}
